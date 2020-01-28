@@ -2,6 +2,18 @@
 
 
 [[projects]]
+  digest = "1:920899b6e204229de521fc1344e90fac0f3b1eb8548c917eca1e537f0cfc0c89"
+  name = "github.com/NodeSpy/procfs"
+  packages = [
+    ".",
+    "internal/fs",
+    "internal/util",
+  ]
+  pruneopts = "UT"
+  revision = "d54bb00803b4b4c2e47752a2ca48be625a2bf732"
+  version = "nodespy"
+
+[[projects]]
   digest = "1:abeb38ade3f32a92943e5be54f55ed6d6e3b6602761d74b4aab4c9dd45c18abd"
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
@@ -117,11 +129,11 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8a44970c7e8c0a1c8646af14605c1ffd31374074d68101c2e11d7761df12c9d1"
+  digest = "1:fea09edda033799f8e99ab9042bda910bf1e3bf088c03eaf2ba8aba3adbbc8bf"
   name = "golang.org/x/sys"
   packages = ["unix"]
   pruneopts = "UT"
-  revision = "e047566fdf82409bf7a52212cf71df83ea2772fb"
+  revision = "9fbb57f87de9ccfe3a99d4e3270ce8a926ebba4f"
 
 [[projects]]
   digest = "1:1093f2eb4b344996604f7d8b29a16c5b22ab9e1b25652140d3fede39f640d5cd"
@@ -158,6 +170,7 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
+    "github.com/NodeSpy/procfs",
     "github.com/rs/zerolog",
     "github.com/spf13/viper",
   ]
