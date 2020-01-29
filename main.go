@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/NodeSpy/nodespy-agent/checks"
+	"github.com/NodeSpy/nodespy-agent/checks/cpu"
 	"github.com/NodeSpy/nodespy-agent/pkgs/logging"
 	"github.com/spf13/viper"
 )
