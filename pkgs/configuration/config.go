@@ -22,6 +22,8 @@ func init() {
 
 	viper.SetDefault("LogLevel", "Warn")
 	viper.SetDefault("LogFile", "./nodespy-agent.log")
+
+	viper.SetDefault("Interval", 15)
 }
 
 func LoadConfig() *Config {

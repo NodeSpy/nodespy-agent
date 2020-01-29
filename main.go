@@ -1,7 +1,7 @@
 package main
 
 import (
-	checks "github.com/NodeSpy/nodespy-agent/checks/cpu"
+	"github.com/NodeSpy/nodespy-agent/pkgs/checkrunner"
 	"github.com/NodeSpy/nodespy-agent/pkgs/configuration"
 	"github.com/NodeSpy/nodespy-agent/pkgs/logging"
 )
@@ -18,5 +18,5 @@ func init() {
 }
 
 func main() {
-	checks.Start()
+	checkrunner.Run(log, config)
 }
