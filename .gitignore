@@ -16,3 +16,6 @@ vendor/
 
 # Configs
 *.yml
+
+# Logs
+*.log
